@@ -50,4 +50,4 @@ if data_upload is not None and category:
     with open(save_path, "wb") as f:
         f.write(data_upload.getbuffer())
     print(f"Saved image to: {os.path.abspath(save_path)}")
-    st.success(f"Image saved to `{save_dir}`! Thanks for helping Mekan's AI take over the skies! 🚀")
+    st.success(f"Image saved to `{save_dir}`! Thanks for helping Mekan's AI take over the skies!")
