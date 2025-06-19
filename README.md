@@ -1,7 +1,7 @@
-# Military Aircraft Classifier ✈️  
+# Military Aircraft Classifier  
 Created by Mekan Agahanov
 
-Ever wondered if that plane is a bomber, a fighter jet, or a reconnaissance marvel? Let Mekan’s AI do the spotting for you—with a touch of humor and a web interface!
+Ever wondered if that plane is a bomber, a fighter jet, or a reconnaissance marvel?
 
 ---
 
