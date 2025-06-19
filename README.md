@@ -1,7 +1,7 @@
-# Military Aircraft Classifier  
+# Military Aircraft Classifier 
 Created by Mekan Agahanov
 
-Ever wondered if that plane is a bomber, a fighter jet, or a reconnaissance marvel?
+Ever wondered if that plane is a bomber, a fighter jet, or a reconnaissance marvel? Let Mekan’s AI spot you with a touch of humor and a web interface!
 
 ---
 
@@ -9,7 +9,7 @@ Ever wondered if that plane is a bomber, a fighter jet, or a reconnaissance marv
 
 ```
 military-plane-classifier
-├── data
+├── data                # (You create this folder locally; not included in the repo)
 │   ├── Bombers
 │   ├── Fighter Jets
 │   └── Reconnaissances
@@ -26,6 +26,38 @@ military-plane-classifier
 
 ---
 
+## Where is the `data` folder?
+
+> **Note:**  
+> The `data` folder is **not included** in this repository.  
+> This is intentional and follows best practices:
+> - Datasets can be large and may have copyright or privacy restrictions.
+> - Each user should create their own `data` folder after cloning the repo.
+
+**To use this project:**
+1. After cloning, create a `data` folder in your project root.
+2. Inside `data`, create subfolders for each category:
+   - `Bombers`
+   - `Fighter Jets`
+   - `Reconnaissances`
+3. Add your images to the appropriate subfolder.
+
+Example:
+```
+data/
+  Bombers/
+    b2.jpg
+    b52.png
+  Fighter Jets/
+    f16.jpg
+    mig29.png
+  Reconnaissances/
+    sr71.jpg
+    u2.png
+```
+
+---
+
 ## Features
 
 - **Classifies images** as **Bombers**, **Fighter Jets**, or **Reconnaissances**
@@ -33,18 +65,6 @@ military-plane-classifier
 - **Streamlit web app** for easy image classification and dataset building
 - **Command-line prediction** for quick checks
 - **Personalized and humorous interface**—because AI should be fun!
-
----
-
-## Dataset
-
-The dataset is organized into subdirectories within the `data` folder, with each subdirectory containing images of a specific type of military plane:
-
-- `Bombers`: Images of bombers.
-- `Fighter Jets`: Images of fighter jets.
-- `Reconnaissances`: Images of reconnaissance planes.
-
-> **Note:** Do **not** upload your full dataset to GitHub. Only include a few sample images if you want.
 
 ---
 
@@ -60,6 +80,11 @@ The dataset is organized into subdirectories within the `data` folder, with each
    ```bash
    pip install -r requirements.txt
    ```
+
+3. **Create your dataset folders:**
+   - Make a `data` folder in your project root.
+   - Inside `data`, create `Bombers`, `Fighter Jets`, and `Reconnaissances` folders.
+   - Add your images to these folders.
 
 ---
 
@@ -115,5 +140,11 @@ Feel free to submit a pull request or open an issue for suggestions, improvement
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
 **Happy plane spotting!**  
-*If the classifier is wrong, blame the AI, not Mekan!
+*If the classifier is wrong, blame the model, not me lol
